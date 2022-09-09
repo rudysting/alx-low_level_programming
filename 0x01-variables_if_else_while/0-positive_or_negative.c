@@ -7,7 +7,7 @@
  *
  *  Function that prints out the kind of number assigned to a variable
  *
- *  Return: Always 0 (Success) 
+ *  Return: Always 0 (Success)
  */
 int main(void)
 {
