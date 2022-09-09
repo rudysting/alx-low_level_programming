@@ -2,8 +2,13 @@
 #include <time.h>
 #include <stdlib.h>
 
-
-/* main: function that returns the kind of number assigned to a variable */
+/**
+ *  main - Entry point
+ *
+ *  Function that prints out the kind of number assigned to a variable
+ *
+ *  Return: Always 0 (Success) 
+ */
 int main(void)
 {
 	int n;
