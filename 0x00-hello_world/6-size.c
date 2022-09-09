@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * A program that prints data types of the running machine
+ * main - A program that prints data types of the running machine
  *
- * The main program prints various data types for this machine
+ * main - The main program prints various data types for this machine
  *
  * Return: Always 0
  */
