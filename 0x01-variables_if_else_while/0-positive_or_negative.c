@@ -2,6 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 
+
 /* main: function that returns the kind of number assigned to a variable */
 int main(void)
 {
