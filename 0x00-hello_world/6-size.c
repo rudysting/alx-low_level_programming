@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * Beginning of code
+ * A program that prints data types of the running machine
  *
- * This program prints various data types on this computer
+ * The main program prints various data types for this machine
  *
- * Returns 0
+ * Return: Always 0
  */
 int main (void)
 {
