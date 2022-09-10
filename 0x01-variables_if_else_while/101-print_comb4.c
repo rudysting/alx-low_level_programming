@@ -15,7 +15,7 @@ int main(void)
 	{
 		for (second_digit = first_digit + 1; second_digit < 9; second_digit++)
 		{
-			for (third_digit = second_digit + 1; third_digit < 10; third_digit++ )
+			for (third_digit = second_digit + 1; third_digit < 10; third_digit++)
 			{
 				putchar(first_digit % 10 + '0');
 				putchar(second_digit %  10 + '0');
@@ -29,5 +29,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}
-	
+}	
