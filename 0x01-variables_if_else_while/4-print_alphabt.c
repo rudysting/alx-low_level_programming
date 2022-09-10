@@ -10,7 +10,7 @@
 int main(void)
 {
 	int x = 'a';
-	while ( x <= 'z' )
+	while (x <= 'z')
 	{
 		if (x != 'q' && x != 'e')
 		{
