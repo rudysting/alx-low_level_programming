@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * print_sign() - program that checks for the sign of a number
  *
  * @n: counter for the printed numbers
