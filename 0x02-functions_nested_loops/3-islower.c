@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * _islower(intc) - Entry point
+ * _islower - Entry point
+ *
+ * c - parameter for checking letter case
  *
  * Return: Integer type.
  */
