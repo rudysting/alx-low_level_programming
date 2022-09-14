@@ -16,7 +16,7 @@ void times_table(void)
 		_putchar('0');
 		_putchar(',');
 		_putchar(' ');
-		for (column_one =1; column_one <= 9; column_one++)
+		for (column_one = 1; column_one <= 9; column_one++)
 		{
 			d = (row_one * column_one);
 			if ((d / 10) > 0)
