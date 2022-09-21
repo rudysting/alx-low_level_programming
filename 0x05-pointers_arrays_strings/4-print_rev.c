@@ -12,7 +12,7 @@ void print_rev(char *s)
 	int _strlen(char *s);
 	int i;
 	int l = _strlen(s);
-	
+
 	for (i = l - 1; i >= 0; i--)
 	{
 		_putchar(s[i]);
@@ -20,6 +20,13 @@ void print_rev(char *s)
 	_putchar('\n');
 }
 
+/**
+ * _strlen - produces the length of an input string
+ *
+ * @s: the placeholder for each string element
+ *
+ * Return: the length of the string
+ */
 int _strlen(char *s)
 {
 	int l = 0;
