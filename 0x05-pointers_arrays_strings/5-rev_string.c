@@ -20,7 +20,7 @@ void rev_string(char *s)
 		s++;
 		c++;
 	}
-	c =0;
+	c = 0;
 
 	while (s > t)
 	{
