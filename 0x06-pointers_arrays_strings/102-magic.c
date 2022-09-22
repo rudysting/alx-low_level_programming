@@ -1,9 +1,4 @@
 #include <stdio.h>
-/**
- * main - Entry point = changes the array element
- *
- * Return: Always 0.
- */
 
 int main(void)
 {
