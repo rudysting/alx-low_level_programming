@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* main - manipulates array elements using pointers */
 int main(void)
 {
 	int n;
