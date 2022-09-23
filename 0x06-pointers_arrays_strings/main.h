@@ -9,3 +9,7 @@ char *leet(char *s);
 char *rot13(char *s);
 void print_number(int n);
 int _putchar(char c);
+int _atoi(char *s);
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+void int_to_string(int n);
+void rev_string(char *n);
