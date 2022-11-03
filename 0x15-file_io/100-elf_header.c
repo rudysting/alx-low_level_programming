@@ -1,9 +1,3 @@
-/*
- * File: 100-elf_header.c
- *
- * Auth: Brennan D Baraban
- */
-
 #include <elf.h>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -85,7 +79,7 @@ void print_class(unsigned char *e_ident)
 		case ELFCLASS64:
 			printf("ELF64\n");
 			break;
-												default:
+		default:
 			printf("<unknown: %x>\n", e_ident[EI_CLASS]);
 	}
 }
@@ -120,7 +114,7 @@ void print_data(unsigned char *e_ident)
 void print_version(unsigned char *e_ident)
 {
 	printf("  Version:                           %d",
-	e_ident[EI_VERSION]);
+		e_ident[EI_VERSION]);
 	switch (e_ident[EI_VERSION])
 	{
 		case EV_CURRENT:
@@ -185,7 +179,7 @@ void print_osabi(unsigned char *e_ident)
 void print_abi(unsigned char *e_ident)
 {
 	printf("  ABI Version:                       %d\n",
-	e_ident[EI_ABIVERSION]);
+		e_ident[EI_ABIVERSION]);
 }
 
 /**
@@ -288,7 +282,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	{
 		free(header);
 		close_elf(o);
-		dprintf(STDERR_FILENO, "Error: `%s`: No such file\n", argv[1]);
+		dprintf(STDERR_FILENO, "Error: '%s': No such file\n", argv[1]);
 		exit(98);
 	}
 	check_elf(header->e_ident);
